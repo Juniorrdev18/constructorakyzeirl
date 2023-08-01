@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: rgba(0, 238, 231, 200);
+    background-color: #ffbb00; 
     color: white;
 }
 
@@ -16,18 +16,18 @@ nav .mobile {
 .logo {
     align-items: center;
     display: flex;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    background-color: #3f3f3f;
 }
 
-.logo img{
-    height: 60px;
-}
 
 .logo h1 {
-    color: #004569; 
+    color: #ffffff; 
 }
 
 nav a {
-    color: #004569;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
     display: block;
@@ -36,7 +36,7 @@ nav a {
 
 nav a:hover {
     color: white;
-    background-color: #004569; 
+    background-color: #3f3f3f; 
 }
 
 nav .desktop {
@@ -72,5 +72,72 @@ nav .desktop .secondary.mini {
     margin: 0;
     color: white;
     padding-left: 2%;
-    font-size: 10vh;
+    font-size: 100px;
+}
+
+.Title-1 p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-left: 2%;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.Part-1 {
+    background-color: rgb(93, 93, 102);
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.Part-1-1 {
+    flex-basis: 50%;
+    color: white;
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Part-1-2 {
+    flex-basis: 50%;
+    color: white;
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.Vision {
+    height: 500px;
+    display: flex;
+}
+
+.Vision-1 {
+    flex-basis: 50%;
+    background-image: url(img/vision.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.Vision-2 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3%  ;
+}
+
+.Vision-2 h1 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    color: white;
+    padding: 0 2% 0 2%;
 }
